@@ -1,140 +1,88 @@
+import "dotenv/config";
+import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
+import getDocsFromFolder from "./lib/getDocsFromFolder";
 import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
-import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
-import "cheerio";
-import { CheerioWebBaseLoader } from "@langchain/community/document_loaders/web/cheerio";
-import { Document } from "@langchain/core/documents";
+import type { ChatPromptTemplate } from "@langchain/core/prompts";
 import { pull } from "langchain/hub";
 import { Annotation, StateGraph } from "@langchain/langgraph";
+import { QdrantVectorStore } from "@langchain/qdrant";
 
 const llm = new ChatOpenAI({ model: "gpt-4o-mini", temperature: 0 });
 const embeddings = new OpenAIEmbeddings({
   model: "text-embedding-3-large",
 });
-const vectorStore = new MemoryVectorStore(embeddings);
+let vectorStore;
+let promptTemplate: ChatPromptTemplate;
 
-const splitter = new RecursiveCharacterTextSplitter({
-  chunkSize: 1000,
-  chunkOverlap: 200,
-});
+export function getRandomInt(max: number) {
+  return Math.floor(Math.random() * max);
+}
 
-const pTagSelector = "p";
-const cheerioLoader = new CheerioWebBaseLoader(
-  "https://lilianweng.github.io/posts/2023-06-23-agent/",
-  {
-    selector: pTagSelector,
-  }
-);
+export async function generateSplits() {
+  const splitter = new RecursiveCharacterTextSplitter({
+    chunkSize: 1000,
+    chunkOverlap: 200,
+  });
 
-const docs = await cheerioLoader.load();
+  const docs = await getDocsFromFolder("./data");
+  console.log(docs.length, "documents loaded.");
+  const docIndex = getRandomInt(docs.length);
+  console.log(docs[docIndex].pageContent.slice(1500, 2500));
 
-console.assert(docs.length === 1);
-console.log(`Total characters: ${docs[0].pageContent.length}`);
+  const allSplits = await splitter.splitDocuments(docs);
+  console.log(`Split blog post into ${allSplits.length} sub-documents.`);
 
-const allSplits = await splitter.splitDocuments(docs);
-console.log(`Split blog post into ${allSplits.length} sub-documents.`);
+  const index = getRandomInt(allSplits.length);
+  console.log(allSplits[index].pageContent);
 
-await vectorStore.addDocuments(allSplits);
+  return allSplits;
+}
 
-const promptTemplate = await pull<ChatPromptTemplate>("rlm/rag-prompt");
+function getVectorStore() {
+  return QdrantVectorStore.fromExistingCollection(embeddings, {
+    url: process.env.QDRANT_URL,
+    collectionName: "test",
+    apiKey: process.env.QDRANT_API_KEY,
+  });
+  // return new MemoryVectorStore(embeddings);
+}
 
-// `
-// You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.
-// Question: (question goes here)
-// Context: (context goes here)
-// Answer:
-// `;
+async function generateEmbeddings() {
+  const allSplits = await generateSplits();
+  await vectorStore!.addDocuments(allSplits);
+}
 
-//CUSTOM PROMPT TEMPLATE
-// const template = `Use the following pieces of context to answer the question at the end.
-// If you don't know the answer, just say that you don't know, don't try to make up an answer.
-// Use three sentences maximum and keep the answer as concise as possible.
-// Always say "thanks for asking!" at the end of the answer.
+async function getPromptTemplate() {
+  const t = await pull<ChatPromptTemplate>("rlm/rag-prompt");
+  return t;
+}
 
-// {context}
+(async () => {
+  const start = Date.now();
+  console.log("Starting...");
+  vectorStore = await getVectorStore();
+  // await generateEmbeddings();
+  promptTemplate = await getPromptTemplate();
 
-// Question: {question}
+  let question = "Riesce Arturo ad uccidere Clementina? e come?";
+  // let question = "Chi è che vuole usare il veleno e quale è il suo scopo?";
 
-// Helpful Answer:`;
+  //query vector store
+  const retrievedDocs = await vectorStore!.similaritySearch(question);
+  const docsContent = retrievedDocs
+    .map((doc: any) => doc.pageContent)
+    .join("\n");
 
-// const promptTemplateCustom = ChatPromptTemplate.fromMessages([
-//   ["user", template],
-// ]);
-
-// Example:
-const example_prompt = await promptTemplate.invoke({
-  context: "(context goes here)",
-  question: "(question goes here)",
-});
-const example_messages = example_prompt.messages;
-
-console.assert(example_messages.length === 1);
-example_messages[0].content;
-
-const InputStateAnnotation = Annotation.Root({
-  question: Annotation<string>,
-});
-
-const StateAnnotation = Annotation.Root({
-  question: Annotation<string>,
-  context: Annotation<Document[]>,
-  answer: Annotation<string>,
-});
-
-const retrieve = async (state: typeof InputStateAnnotation.State) => {
-  const retrievedDocs = await vectorStore.similaritySearch(state.question);
-  return { context: retrievedDocs };
-};
-
-const generate = async (state: typeof StateAnnotation.State) => {
-  const docsContent = state.context.map((doc) => doc.pageContent).join("\n");
+  console.log("Retrieved documents: ", docsContent);
+  // ask the question to the model with the retrieved documents as context
   const messages = await promptTemplate.invoke({
-    question: state.question,
+    question: question,
     context: docsContent,
   });
-  const response = await llm.invoke(messages);
-  return { answer: response.content };
-};
+  const result = await llm.invoke(messages);
+  console.log(`\nAnswer: ${result?.content}`);
 
-/*
-let question = "...";
-
-const retrievedDocs = await vectorStore.similaritySearch(question);
-const docsContent = retrievedDocs.map((doc) => doc.pageContent).join("\n");
-const messages = await promptTemplate.invoke({
-  question: question,
-  context: docsContent,
-});
-const answer = await llm.invoke(messages);
- */
-const graph = new StateGraph(StateAnnotation)
-  .addNode("retrieve", retrieve)
-  .addNode("generate", generate)
-  .addEdge("__start__", "retrieve")
-  .addEdge("retrieve", "generate")
-  .addEdge("generate", "__end__")
-  .compile();
-
-//CALL
-let inputs = { question: "What is Task Decomposition?" };
-
-const result = await graph.invoke(inputs);
-console.log(result.context.slice(0, 2));
-console.log(`\nAnswer: ${result["answer"]}`);
-
-// STREAM
-// console.log(inputs);
-// console.log("\n====\n");
-// for await (const chunk of await graph.stream(inputs, {
-//   streamMode: "updates",
-// })) {
-//   console.log(chunk);
-//   console.log("\n====\n");
-// }
-// STREAM TOKENS
-
-// const stream = await graph.stream(inputs, { streamMode: "messages" });
-// for await (const [message, _metadata] of stream) {
-//   process.stdout.write(message.content + "|");
-// }
+  const elapsed = Date.now() - start;
+  console.log("Finish after ...", elapsed / 1000, "seconds");
+})();
