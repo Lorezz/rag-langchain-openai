@@ -1,6 +1,6 @@
 import { Document } from "@langchain/core/documents";
 import fs from "fs/promises";
-const { convert } = require("html-to-text");
+// const { convert } = require("html-to-text");
 
 export default async function getDocsFromFolder(folderPath: string) {
   const docs: Document[] = [];
@@ -17,10 +17,11 @@ export default async function getDocsFromFolder(folderPath: string) {
         const metadata = { title: entry.name };
         let pageContent = content;
         if (ext === "html") {
-          const options = {
-            wordwrap: 130,
-          };
-          pageContent = convert(content, options);
+          pageContent = "";
+          // const options = {
+          //   wordwrap: 130,
+          // };
+          // pageContent = convert(content, options);
         }
         docs.push(
           new Document({
