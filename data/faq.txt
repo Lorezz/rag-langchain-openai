@@ -1,0 +1,555 @@
+
+Cos'è Next Generation EU?
+Next Generation EU (NGEU) è un piano Next da €750 miliardi che ha l'obiettivo di rilanciare l'economia europea dopo la pandemia di COVID-19 e di renderla più verde e digitale.
+
+
+   Cos'è Italia domani, il Piano nazionale di ripresa e resilienza (PNRR)?
+   Italia domani è il nome del Piano nazionale di ripresa e resilienza (PNRR) approvato dal Governo italiano il 29 aprile del 2021 all’interno del programma europeo Next Generation EU. L’Italia è la prima beneficiaria, in valore assoluto, del programma Next Generation EU, con un totale di €191,5 miliardi. Mediante un Fondo Complementare, finanziato direttamente dal bilancio dello Stato, il nostro Paese ha previsto un'integrazione di €30,6 mld. Il totale degli investimenti previsti è pertanto di €222,1 miliardi.
+
+
+   Cos'è Italia digitale 2026?
+   Italia digitale 2026 è il piano strategico per la transizione digitale e la connettività promosso dal Dipartimento per la trasformazione digitale. Il Piano, che raccoglie il 27% delle risorse di Italia domani, si sviluppa su due assi. Il primo asse (6,71 miliardi) riguarda le infrastrutture digitali e la connettività a banda ultra larga. Il secondo (6,74 miliardi) riguarda tutti quegli interventi volti a trasformare la Pubblica Amministrazione (PA) in chiave digitale. I due assi sono necessari per garantire che tutti i cittadini abbiano accesso a connessioni veloci per vivere appieno le opportunità che una vita digitale può e deve offrire e per migliorare il rapporto tra cittadino e pubblica amministrazione rendendo quest’ultima un alleato nella vita digitale dei cittadini.
+
+
+   Quali sono gli obiettivi di Italia digitale 2026?
+   L'importante piano di investimenti e riforme previsto dal Piano nazionale di ripresa e resilienza vuole mettere l'Italia nel gruppo di testa in Europa entro il 2026. Italia digitale 2026 si pone cinque ambiziosi obiettivi:
+
+
+   Cos’è “PA digitale 2026”?
+   “PA digitale 2026” è il sito del Dipartimento per la trasformazione digitale che permette alla PA di accedere ai fondi di Italia digitale 2026. Il sito sarà il punto unico di accesso per avere informazioni sugli avvisi dedicati alla digitalizzazione della PA, fare richiesta di accesso ai fondi e rendicontare l’avanzamento dei progetti. Inoltre è possibile richiedere assistenza diretta e avere tutte le info sulle azioni di accompagno previste dal Dipartimento per la trasformazione digitale della Presidenza del Consiglio dei ministri.
+
+
+   Quali sono i requisiti per il primo accesso a PA digitale 2026?
+   Per accedere alla piattaforma è necessario disporre della propria identità digitale (SPID o CIE) e della propria email istituzionale.\nChi assume il ruolo di Super admin deve inoltre avere la possibilità di consultare la PEC della PA alla quale saranno inviate le mail di conferma e attivazione delle utenze.
+
+
+   Cosa è necessario per completare la procedura di primo accesso a PA digitale 2026?
+   Per completare la procedura di primo accesso alla piattaforma PA digitale 2026, è necessario confermare il link di verifica presente nella PEC inviata all'amministrazione di riferimento. Il link di verifica ha una validità di 7 giorni.
+
+
+   È possibile accedere alla piattaforma anche quando non si ricopre il ruolo di rappresentante legale della PA?
+   Sì.\nIl Rappresentante Legale è un dato direttamente recepito da IPA in piattaforma.\nPer l’operatività su PA digitale 2026, qualunque persona può accedere in qualità di Admin se hai ricevuto l’invito della PA di riferimento o in qualità di Super admin effettuando una procedura di subentro al profilo Super admin precedente.
+
+
+   Cosa bisogna fare se, al momento di scegliera la PA per la quale si intende accedere, non si trova una corrispondenza nell’elenco della piattaforma oppure i dati visualizzati nella procedura di attivazione del profilo della PA non sono aggiornati?
+   Nella pagina di di selezione della PA mediante nome, codice IPA o luogo, il sistema precarica i dati presenti nella banca dati IPA.\nSe si riscontrano inesattezze nei dati della PA visualizzati, è necessario modificarli su IPA (https://indicepa.gov.it/ipa-portale/) e riprendere l’attivazione della PA dopo l’aggiornamento.\nÈ bene ricordare che, per visualizzare su PA digitale 2026 i dati aggiornati a seguito di modifiche su IPA, potrebbero essere necessarie fino a 24 ore.
+
+
+   Cosa bisogna fare se la PA non riceve la PEC contenente il link di verifica oppure non riesce a completare il processo di attivazione entro 7 giorni?
+   Se la PEC dell'amministrazione non ha ricevuto la comunicazione oppure sono trascorsi più di 7 giorni dalla ricezione del link di verifica, è necessario richiedere l'invio di una nuova email premendo il pulsante \"Invia nuova email\" presente nella pagina che si visualizza accedendo nuovamente alla piattaforma.
+
+
+   È possibile accedere come nuovo Super Admin per una PA in cui è già presente un utente dello stesso ruolo? Cosa bisogna fare per cambiare l’utenza del Super Admin associato a una PA?
+   Nel momento in cui un nuovo profilo Super admin accede alla piattaforma per conto di una PA che ha già un’utenza attiva in quel ruolo, il sistema invia una PEC all’amministrazione per confermare la nuova utenza e, in caso di conferma, disabilitare la precedente e attivare la nuova utenza Super admin.
+
+
+   È possibile accedere alla piattaforma con diverse identità SPID/CIE?
+   No. Lo SPID/CIE utilizzato in fase di accesso deve essere lo stesso anche per tutti i futuri accessi a PA digitale 2026.
+
+
+   Cosa fare in caso di mancata autenticazione con SPID/CIE a seguito di un invito?
+   Bisogna accertarsi che la persona che ha mandato l'invito a entrare in PA digitale 2026 per conto di una PA, abbia inserito correttamente i dati.
+
+
+   Cosa fare se in qualità di utente invitato non si riesce ad accedere a PA digitale 2026?
+   Dopo aver ricevuto l'email di invito e aver verificato la correttezza dei dati, bisogna accertarsi di aver completato la procedura di accesso facendo click sul link di verifica all'interno dell'email.
+
+
+   È possibile accedere a PA digitale 2026 come rappresentante legale di più Scuole?
+   Il Rappresentante Legale è un dato direttamente recepito da IPA in piattaforma.\nPer l’operatività su PA digitale 2026, potrai scegliere di registrarti come Super admin (quindi con anche potere di gestione delle altre utenze) o come Admin.\nÈ consentito essere Super admin o Admin per uno o più PA.
+
+
+   Come si effettua l’accesso a PA digitale 2026 per conto di una PA?
+   Qualunque persona può accedere a PA digitale 2026 tramite SPID/CIE in qualità di Admin, se invitata dalla PA di riferimento.\nIn caso di accesso con ruolo di Super admin, durante la procedura di primo accesso alla piattaforma, è necessario selezionare il profilo della PA di riferimento e confermare sulla PEC dell'ente l’attivazione della propria utenza, che eliminerà il profilo Super admin presente fino a quel momento.
+
+
+   Quanti utenti è possibile invitare in PA digitale 2026 per una singola PA?
+   Oltre al ruolo di Super admin, ogni PA può avere un massimo di 3 utenze nel ruolo di Admin.
+
+
+   Che differenza c'è tra Super Admin e Admin?
+   Entrambe le utenze (Super admin e Admin) hanno piena operatività in piattaforma e possono quindi visualizzare le informazioni relative alla PA e alle candidature, compilare moduli, caricare documenti, rispondere a richieste o aprire ticket di assistenza.\nTutte le utenze possono inoltre operare su una o più PA.\nSolo l’utenza Super admin può invece creare e gestire tutte le altre utenze, ad esempio revocarle od invitarne di nuove, nei limiti del numero massimo permesso dalla piattaforma, cioè quattro utenze in totale.
+
+
+   Cosa fare se l’utente invitato, dopo essersi autenticato con SPID/CIE, non riesce a completare l’accesso?
+   Potrebbe accadere che i dati contenuti nell’invito e i dati ereditati da SPID/CIE dell’utenza invitata non coincidano.\nIn questo caso, la persona col ruolo di Super admin deve controllare di aver correttamente inserito i dati anagrafici nel modulo di invito, ed eventualmente, modificarli.
+
+
+   Cosa bisogna fare se l'utente invitato non riceve l'email di invito?
+   Bisogna verificare la correttezza dei dati inseriti nella sezione \"Utenti\" e nel caso risultassero errati procedere alla correzione. Qualora fossero corretti, si consiglia di controllare la cartella spam della posta elettronica oppure contattare il supporto di PA digitale 2026 dall'apposito modulo di contatto.
+
+
+   Come si modificano i dati di un utente di una PA? Come si revoca un’utenza?
+   Dopo aver selezionato la PA per la quale intende operare, la persona che opera col ruolo di Super Admin accede, attraverso il menù a tendina che si apre facendo click sul suo nome in alto a destra, alla sezione “Le utenze della tua PA”.\nIn questa sezione, può visualizzare la lista delle utenze collegate alla propria PA e relativo stato (utenza invitata, utenza attiva).\nFacendo click sulle icone a disposizione, chi ha il ruolo di Super admin può:
+
+
+   Sono previste funzionalità per supportare la partecipazione di forme aggregative come, ad esempio, le unioni di comuni?
+   Sì.\nAll’interno della piattaforma l’utenza Super admin e Admin possono associarsi a più PA.
+
+
+   Dove è possibile verificare i requisiti per accedere a una candidatura ?
+   É possibile verificare i requisiti di accesso a una candidatura all'interno del dettaglio della pagina dell'avviso pubblico.
+
+
+   Con quale modalità bisogna trasmettere la candidatura?
+   La candidatura per un avviso pubblico può essere trasmessa solo ed esclusivamente attraverso la procedura guidata di candidatura presente nell'area riservata di PA digitale 2026.
+
+
+   Quali dati sono necessari per avviare/completare una candidatura?
+   Per poter avviare o completare una candidatura su PA digitale 2026 sono richiesti:
+
+
+   È possibile presentare più candidature per singolo avviso?
+   No. Per ogni avviso è prevista la possibilità di inviare una sola candidatura finanziata.
+
+
+   In cosa consiste il calendario di un avviso?
+   L'assegnazione dei fondi è periodica: avviene quindi in base al calendario dei singoli avvisi, a seguito della pubblicazione di un decreto. Per maggiori informazioni, consultare la sezione ''esiti candidature'' all'interno dell'avviso interessato.
+
+
+   Perché un avviso visualizzato in area pubblica non è presente nell'area riservata?
+   Un avviso presente in area pubblica potrebbe non essere visibile nell'area riservata nel caso in cui la PA non rientri tra i beneficiari previsti per quell'avviso.
+
+
+   È possibile modificare una domanda di finanziamento non ancora inviata?
+   Sì. È possibile modificare una domanda di finanziamento non ancora inviata attraverso il tasto ''Modifica dati'' presente nello step 4 (Riepilogo) del flusso di candidatura. Nel caso in cui l'utente abbia già caricato in precedenza una domanda firmata, dovrà eliminare tale documento attraverso il tasto ''Rimuovi file'' presente nello step 5 (Firma) del flusso, scaricare nuovamente e ricaricare la domanda modificata e firmata digitalmente, ed eventualmente procedere all'invio.
+
+
+   Quali sono le cause di inammissibilità di una domanda di finanziamento?
+   Le principali cause di inammissibilità sono:
+
+
+   Il sistema non consente di caricare la domanda di finanziamento. Come si può procedere per inviare la candidatura?
+   È necessario controllare che:
+
+
+   Cosa succede se non viene rispettato il calendario scadenze/cronoprogramma?
+   Se non vengono completate le attività necessarie previste nel calendario scadenze/cronoprogramma, il finanziamento concesso viene revocato.
+
+
+   Come ci si dota di dispositivo di firma digitale?
+   Coloro che desiderano dotarsi di un dispositivo di firma digitale devono rivolgersi ai prestatori di servizi fiduciari accreditati, soggetti pubblici o privati che, sotto la vigilanza di AgID, emettono certificati qualificati (per la firma digitale) e certificati di autenticazione (per le carte nazionali dei servizi). È possibile consultare la lista dei prestatori di servizi fiduciari accreditati accedendo alla pagina https://www.agid.gov.it/piattaforme/firma-elettronica-qualificata/prestatori-di-servizi-fiduciari-attivi-in-italia
+
+
+   Quali sono i formati di firma riconosciuti all'interno del sistema?
+   Il sistema ritiene valide solo firme di tipologia Cades.
+
+
+   Devo eliminare un servizio selezionato in fase di candidatura. Come posso procedere?
+   Ti ricordiamo che la candidatura finanziata non è modificabile e non è, pertanto, possibile aggiungere e/o sostituire e/o rimuovere uno o più servizi. Le eventuali modifiche sui servizi potranno riguardare solo le casistiche inserite nel Decreto Modifiche n. 35/2023 per impossibilità sopravvenuta, per causa non imputabile, di realizzare le attività oggetto del finanziamento.\nTi ricordiamo inoltre che l'erogazione del contributo è prevista solo ed esclusivamente nel caso in cui l’ente abbia rispettato integralmente quanto indicato in fase di adesione.\nTi segnaliamo che è comunque possibile annullare la pratica, anche a seguito dell'emissione del decreto di finanziamento, tramite la funzionalità \"Progetti\, cliccando sul pulsante \"Rinuncia al progetto\".\nTi ricordiamo infine che, qualora sia aperto, potrai ricandidarti per un Avviso a valere sulla stessa Misura dopo aver ricevuto conferma via PEC della pubblicazione del Decreto di Rinuncia.\nTi invitiamo pertanto a fare le opportune valutazioni del caso, anche chiedendo supporto all'account manager della tua area territoriale, raggiungibile tramite il Form all'indirizzo che segue:\nhttps://padigitale2026.gov.it/team-territoriali
+
+
+   Ho sbagliato ad indicare lo stato di un'attività (\"da avviare\" anziché \"già avviato\" o viceversa). Come posso correggerlo?
+   Se è stato commesso un mero errore materiale, al fine di procedere con la rettifica della caratteristica attuativa (“avviata”, “da avviare” e viceversa), ti invitiamo ad accedere alla pagina di anagrafica di progetto e cliccare sul tasto \"Vai all'Archivio dei Documenti\". In questa sezione potrai caricare un documento che indichi la caratteristica attuativa corretta, sottoscritto dal Rappresentante Legale dell'Ente. Ti ricordiamo che discriminante per la caratteristica attuativa (\"da avviare\" oppure \"già avviato\") è la data di sottomissione della candidatura e che la validità della documentazione potrà essere accertata esclusivamente in fase di asseverazione formale e controlli a campione.
+
+
+   È previsto un periodo di mantenimento dei servizi attivi?
+   Sì, è necessario mantenere i servizi attivi per almeno 5 anni. Tale requisito, verrà verificato attraverso dei controlli a campione da parte degli organi di controllo preposti nei successivi 5 anni. Sono consentiti eventuali sviluppi migliorativi del progetto iniziale a patto che si riesca a ricostruire quanto è stato fatto attraverso apposita documentazione tecnica e amministrativa. I cinque anni decorrono dal 31 dicembre dell’anno in cui è effettuata l’erogazione da parte del Dipartimento.
+
+
+   Il mio Comune fa parte di un'Unione che gestisce gli sviluppi tecnologici per conto del Comune, come posso partecipare agli avvisi pubblicati su PA digitale 2026?
+   Il Soggetto Attuatore degli avvisi di PA digitale 2026 è il Comune. Sarà quindi il rappresentante legale del Comune a definire tutti i parametri del finanziamento richiesto e a firmare la candidatura.Due scenari ammissibili: 1-il Comune iscrive i fondi nel proprio bilancio e firma i contratti con gli operatori economici, L’Unione si occupa della gestione della procedura di selezione dei fornitori.  Il Comune dovrà indicare in piattaforma, nel fascicolo di progetto: -quale “Soggetto Realizzatore” ciascun fornitore con cui Il Comune intrattiene un rapporto di fornitura -i contratti tra il Comune e  gli operatori economici 2. Il Comune e l’Unione stabiliscono nella convenzione le modalità di trasferimento dei fondi dal Comune alla propria Unione e sulla base di ciò questa iscrive sul proprio bilancio le relative somme e provvede a selezionare e stipulare i contratti con gli operatori economici.  Il Comune dovrà indicare in piattaforma, nel fascicolo di progetto: -quale “Soggetto Realizzatore”: ciascun fornitore con cui l’Unione intrattiene un rapporto di fornitura -la Convenzione o l’accordo tra Enti comunque denominato, con cui il Comune ha dato mandato all’Unione di provvedere all’esecuzione delle attività oggetto del finanziamento -insieme a questa, i contratti tra l’Unione e gli operatori economici In ogni caso il Comune resta Soggetto Attuatore (con tutti gli obblighi connessi) ed è tenuto a richiedere il CUP.Il Certificato di Regolare esecuzione redatto dal RUP dell’Unione dovrà essere controfirmato dal Responsabile del Procedimento del Comune.Nei rapporti tra Comune e Unione va garantita la tracciabilità dei flussi finanziari e dell’operazione  menzionando chiaramente il CUP relativo al progetto PNRR sia nell’accordo Comune-Unioni sia negli atti di affidamento.\n
+
+
+   Sono previsti controlli sull'avanzamento del progetto?
+   Oltre ai controlli relativi all'asseverazione, il Dipartimento si riserva il diritto di esercitare, in ogni tempo, con le modalità che riterrà opportune, verifiche e controlli a campione sull'avanzamento finanziario, procedurale e fisico del progetto, sul rispetto degli obblighi previsti dalla normativa vigente, e dal presente Avviso nonché sulla veridicità delle dichiarazioni e informazioni prodotte dal Soggetto Attuatore. In caso di verifica, in sede di controllo, del mancato pieno rispetto della disciplina nazionale ed europea, anche se non penalmente rilevanti, il Dipartimento procederà alla revoca totale del contributo e al recupero delle eventuali somme già erogate, fatte salve le disposizioni di cui all’art. 20 del presente Avviso.
+
+
+   Nell'ambito delle misure 1.3 e 1.4, è previsto il rispetto del principio DNSH per i fornitori?
+   Come previsto dalla Circolare del 13 ottobre 2022, n. 33 \"Aggiornamento Guida operativa per il rispetto del principio di non arrecare danno significativo all’ambiente (cd. DNSH)\" il MEF-RGS, a fronte di approfondimenti condotti con il DTD, ha stabilito che il principio del DNSH non si applica agli investimenti 1.3 e 1.4 della Missione 1 Componente 1 del PNRR - https://www.rgs.mef.gov.it/VERSIONE-I/circolari/2022/circolaren33_2022
+
+
+   È possibile accedere alla piattaforma PA digitale 2026 come fornitori?
+   No, possono accedere alla piattaforma solo i Soggetti Attuatori delle misure (le PA) secondo quanto stabilito dai relativi avvisi.
+
+
+   Chi è il Soggetto Realizzatore da inserire nella sezione dell'implementazione dei progetti?
+   Il Soggetto Realizzatore può essere lo stesso Ente o il fornitore o partner/intermediario tecnologico che ha fornito supporto nell'implementazione delle attività e relativo rilascio in esercizio.
+
+
+   Un Soggetto Attuatore può avvalersi di un'altra Pubblica Amministrazione in qualità di Soggetto Realizzatore?
+   Sì, in base a quanto disposto dell’art. 15 della Legge 241/1990, è nella responsabilità dell'Ente valutare se la forma di cooperazione prevista sia coerente con un rapporto di affidamento di servizi.
+
+
+   È necessario individuare un fornitore esterno per i bandi PNRR?
+   Il Soggetto Attuatore può affidare lo svolgimento delle attività a uno o più fornitori autonomamente individuati, nel rispetto del codice degli appalti, della normativa applicabile per il suo ente e delle specifiche linee guida presenti negli avvisi. In alternativa, la stessa amministrazione aderente deve segnalare la scelta di non ricorrere ad un fornitore esterno. Nel primo caso (fornitore esterno) potrà assegnare al fornitore individuato il ruolo di Soggetto Realizzatore tramite il tasto “Aggiungi soggetto realizzatore”, inserendo poi nella sezione “Contrattualizzazione” il contratto o la determina di affidamento. Nel secondo caso (servizio svolto in economia dal personale dell’ente), potrà assegnare il ruolo di Soggetto Realizzatore alla stessa PA cliccando sul tasto \"Diventa Soggetto Realizzatore\" e inserire successivamente un Ordine di Servizio.
+
+
+   Nel caso in cui una PA si avvalga di un soggetto in house che funge da concentratore è necessario per la PA inserire anche i contratti che quest'ultimo ha stipulato con i diversi fornitori coinvolti?
+   Nel caso della presenza di un fornitore in house è sufficiente inserire solo il contratto con quest'ultimo. Resta inteso che, qualora siano presenti ulteriori fornitori, basterà compilare l'anagrafica di ognuno attraverso la funzione \"Aggiungi subappaltatore\".
+
+
+   Qualora sia già in corso un contratto di hosting e manutenzione del sito internet e fosse necessario effettuare un nuovo affidamento per partecipare ai bandi del PNRR, è possibile interrompere anticipatamente il contratto in essere? È possibile affidare l'incarico all'operatore uscente, derogando al principio di rotazione di cui alle linee Guida ANAC n°4?
+   È possibile far cessare anticipatamente il contratto nei casi di cui agli artt. 108 e 109 del d.lgs. 50/2016 e in altri casi di risoluzione o recesso eventualmente previsti nel contratto. L’eventuale nuovo affidamento al medesimo operatore economico dovrà essere adeguatamente motivato dalla stazione appaltante, tenendo conto che l’opportunità di partecipare ai bandi del PNRR non può costituire motivo di deroga alla normativa di riferimento e, nello specifico, al Codice dei contratti pubblici.
+
+
+   Devo apportare delle modifiche e/o integrazioni alla documentazione relativa alla contrattualizzazione ma ho il cronoprogramma scaduto, come posso procedere?
+   Ti informiamo che è possibile caricare autonomamente in piattaforma documentazione aggiuntiva o di rettifica per la fase contrattualizzazione, anche se completata. In particolare, ritornando alla funzionalità di \"Caricamento contratti\" presente allo step 3 della gestione del progetto è possibile caricare un addendum al contratto iniziale, firmato dalle due parti (ente e fornitore) che integri le informazioni mancanti o rettifichi le informazioni errate oppure altra documentazione di integrazione/modifica a determine, firmata dal Rappresentante Legale (es. modifiche da Smart CIG a CIG ordinario).\nTi ricordiamo che eventuali integrazioni successive alla data di completamento della prima contrattualizzazione dichiarata non aggiornano il cronoprogramma.\nLaddove il progetto sia già stato completato e inviato in verifica, dovrai attendere l'esito dell'asseverazione ed eventuali richieste di integrazione inviate dagli asseveratori.
+
+
+   È possibile avvalersi del supporto di più fornitori al fine di implementare un solo servizio?
+   Sì, una sola attività può essere assegnata a più fornitori, per ognuno dei quali dovrà essere caricato il contratto in Piattaforma. (Per le forniture SAAS nell'avviso 1.2 consulta la relativa FAQ).
+
+
+   Quali documenti sono ritenuti ammissibili nello step dedicato al \"Caricamento Contratti\"?
+   Nel caso in cui il Soggetto Attuatore si avvalga del supporto di uno o più fornitori, sarà necessario caricare in piattaforma i relativi contratti o le determine di affidamento/aggiudicazione. Qualora il Soggetto Attuatore implementi autonomamente le attività oggetto di finanziamento, dovrà caricare in piattaforma un ordine di servizio.
+
+
+   Nell'ambito delle misure 1.3 e 1.4, è previsto il rispetto del principio DNSH per i fornitori?
+   Come previsto dalla Circolare del 13 ottobre 2022, n. 33 \"Aggiornamento Guida operativa per il rispetto del principio di non arrecare danno significativo all’ambiente (cd. DNSH)\" il MEF-RGS, a fronte di approfondimenti condotti con il DTD, ha stabilito che il principio del DNSH non si applica agli investimenti 1.3 e 1.4 della Missione 1 Componente 1 del PNRR - https://www.rgs.mef.gov.it/VERSIONE-I/circolari/2022/circolaren33_2022
+
+
+   In fase di selezione del fornitore è possibile utilizzare contratti stipulati prima dell'entrata in vigore del D.L 77/2021?
+   Il Soggetto attuatore, in fase di selezione del fornitore, è tenuto al rispetto di tutta la normativa vigente in materia di pari opportunità e disabilità. Per i contratti stipulati prima dell’entrata in vigore del D.L 77/2021, si applica la normativa allora vigente.
+
+
+   Il RUP deve essere individuato esplicitamente con un formale atto di nomina oppure può essere direttamente il Responsabile per la Transizione al Digitale?
+   Per ogni singola procedura di affidamento di un appalto o di una concessione, le stazioni appaltanti, con atto formale del responsabile dell'unità organizzativa, nominano un RUP per le fasi della programmazione, progettazione, affidamento ed esecuzione. Viceversa, in assenza di un appalto, è possibile individuare un Responsabile del procedimento amministrativo (RTD o altri).
+
+
+   I requisiti di cui art. 47 del DL n. 77 del 31/05/2021 convertito con modificazioni dalla legge n. 108 del 29/07/2021 (inclusione lavorativa delle persone disabili, parità di genere e l'assunzione di giovani, con età inferiore a trentasei anni) sono richiesti per tutte le aziende?
+   Si invita a consultare le \"Linee guida per i contratti pubblici finanziati con le risorse del PNRR e del PNC, volte a favorire le pari opportunità di genere e generazionali e l’inclusione lavorativa delle persone con disabilità\" che disciplinano dettagliatamente le tematiche indicate (consultabili al seguente link https://www.italiadomani.gov.it/it/strumenti/documenti/archivio-documenti/linee-guida-volte-a-favorire-le-pari-opportunita-di-genere-e-gen.html).
+
+
+   Ai fini del rispetto dei requisiti di ammissibilità della candidatura, qual è la decorrenza dell'avvio delle attività?
+   Per la decorrenza dell'avvio delle attività si rimanda ai singoli avvisi pubblici secondo quanto riportato  nei requisiti di ammissibilità dei soggetti attuatori  (Art. 7 dell'Avviso)
+
+
+   Ai fini del rispetto dei requisiti di ammissibilità della candidatura, a partire da quale data deve essere contrattualizzato il fornitore?
+   Ai sensi dell'Art. 17 \"Ammissibilità\" comma 2, del Regolamento UE 2021/241 del PARLAMENTO EUROPEO E DEL CONSIGLIO del 12 febbraio 2021: \" Le misure avviate a decorrere dal 1° febbraio 2020 sono ammissibili a condizione che soddisfino i requisiti di cui al presente regolamento.\"\nTi ricordiamo che, nel caso in cui le attività oggetto di finanziamento siano state avviate attraverso l'ausilio e/o il supporto di un Partner/intermediario tecnologico, la data di contrattualizzazione di quest'ultimo deve essere successiva al 31 gennaio 2020. Per data di contrattualizzazione si intende la data di stipula, cioè la data in cui è avvenuta la firma del contratto, a partire dalla quale inizia ufficialmente il decorso dello stesso.
+
+
+   È possibile apportare modifiche ad un CUP già generato?
+   Sì, è possibile apportare modifiche ad un CUP già generato attraverso la funzione applicativa\n“Invio richiesta modifica CUP” disponibile nell’area riservata del Sistema CUP\n(https://cupweb.rgs.mef.gov.it/CUPWeb/home_cup.jsp).
+
+
+   Ho rinunciato ad una candidatura al fine di sottometterne una nuova. L'importo riconosciuto a finanziamento della nuova candidatura è differente. Posso utilizzare lo stesso CUP senza apportare modifiche?
+   Sì, ti confermiamo che è possibile utilizzare lo stesso CUP anche se l'importo del finanziamento è differente rispetto alla candidatura precedente, a condizione che il CUP sia generato con il corretto template e a meno di rilevanti variazioni del corredo informativo che richiedono la revoca e la generazione di un nuovo CUP.
+
+
+   In caso di implementazione in economia delle attività è previsto il rispetto del principio DNSH?
+   Sì, è previsto il rispetto del principio di non arrecare danno significativo all’ambiente (cd. DNSH) per i Soggetti Attuatori che implementano autonomamente le attività oggetto di finanziamento, senza ricorrere all'ausilio/supporto di un partner/intermediario tecnologico.
+
+
+   Nell'ambito della misura 1.2, è previsto il rispetto del DNSH per il Soggetto Realizzatore?
+   Nell'ambito della misura 1.2, per il Soggetto Realizzatore delle attività oggetto di finanziamento è previsto il rispetto del principio di non arrecare danno significativo all’ambiente (cd. DNSH) nel caso le attività ricadano nell'ambito delle schede 3, 6, 8.
+
+
+   Nell'ambito della misura 1.2 è previsto il rispetto del principio DNSH per il CSP?
+   Il Cloud Service Provider deve necessariamente rispettare il principio del DNSH, come disposto dall'Allegato 4 dell'Avviso riferito alla misura 1.2.
+
+
+   Quando deve essere compilata la scheda 3 dell'allegato 4?
+   La scheda 3 riguardante i casi di acquisto, leasing, noleggio di computer e apparecchiature elettriche ed elettroniche, rispetto all'oggetto di finanziamento della misura 1.2, non è applicabile in contesti di migrazione verso infrastrutture già esistenti. Deve essere compilata in tutti gli altri casi.
+
+
+   Come viene rispettata la conformità alla scheda 6 (servizi informatici di hosting cloud)?
+   Ai fini della conformità alla scheda 6 è necessario rientrare in uno dei quattro scenari presenti nella slide 8 presente dall'Allegato 4 dell'Avviso riferito alla misura 1.2.
+
+
+   Come viene rispettata la conformità alla scheda 8 (data center)?
+   Ai fini della conformità alla scheda 8 è necessario rientrare in uno dei quattro scenari presenti nella slide 8 presente dall'Allegato 4 dell'Avviso riferito alla misura 1.2.
+
+
+   Per quanto concerne lo scenario 1 quali sono i requisiti fondamentali?
+   In merito allo scenario 1, è sufficiente uno fra le seguenti i requisiti: Registrazione Emas o UNI EN ISO 14001. Rispetto alla versione precedente dell'allegato non è più quindi richiesto e sufficiente il CLC/TR 50600-99-1 e il Code of Conduct for energy efficiency of data centers.
+
+
+   Cosa si intende per verifiche ex-post delle schede 6 e 8?
+   I quesiti ex-post delle schede 6 ed 8 rappresentano l'impegno del fornitore di servizi cloud a continuare ad aderire, negli anni a venire, agli standard europei in materia di impatto ambientale. Sono previsti a riguardo degli audit triennali condotti da organismi indipendenti.
+
+
+   In caso di sviluppi in economia, non ho un ordine di servizio o mancano dei documenti: cosa posso fare?
+   In caso di carenza di questo tipo, occorre produrre un atto di ricognizione (determina dirigenziale) in cui l’Ente attesta espressamente i seguenti elementi del progetto:  - Codice Unico di Progetto (CUP) del progetto finanziato con l’Avviso di riferimento; - Decreto di finanziamento del progetto; - Investimento/Misura e Avviso PNRR di riferimento e coerenza del progetto; - Data di avvio delle attività di progetto; - Lista delle attività/servizi imputate al progetto PNRR e tempistica di esecuzione in coerenza con la data di avvio delle attività;  - Motivazione delle ragioni che giustificano la mancanza di uno specifico atto amministrativo coevo o antecedente all’avvio delle attività (es. attività avviate prima della pubblicazione dell’Avviso di riferimento, altro…) (se ricorre);  - Indicazione che il progetto rispetta il Regolamento (UE) n. 2021/241, in  particolare dell’art. 17, ai sensi del quale sono ammissibili le misure avviate a decorrere dal 1° febbraio 2020, a condizione che soddisfino i requisiti di cui al regolamento stesso; - Indicazione che il progetto non è stato finanziato da altri fondi pubblici, nazionali, regionali o europei e rispetta il principio di addizionalità del sostegno dell’Unione europea previsto dall’art. 9 del Regolamento (UE) 2021/241;  - Indicazione che il progetto ha rispettato il principio di non arrecare un danno significativo agli obiettivi ambientali ai sensi dell'articolo 17 del Regolamento (UE) 2020/852 (DNSH), ove applicabile (per l’investimento 1.2); - Indicazione che la realizzazione delle attività progettuali è coerente con i principi e gli obblighi specifici del PNRR e, ove applicabili, ai principi del Tagging clima e digitale, della parità di genere (Gender Equality), della protezione e valorizzazione dei giovani;  - Indicazione che l’attuazione del progetto prevede il rispetto delle norme comunitarie e nazionali applicabili, ivi incluse quelle in materia di trasparenza, tutela dei diversamente abili, parità di trattamento, non discriminazione, proporzionalità e pubblicità; - Indicazione di aver rispettato gli obblighi di cui all’art. 11 dell’Avviso su cui il progetto è stato finanziato a valere sul PNRR; - Indicazione dei Regolamenti interni di organizzazione che prevedono il ricorso a lavori in economia, adozione di ordini di servizio.
+
+
+   Quali modifiche si potranno apportare alla candidatura?
+   Premesso che la candidatura finanziata non è modificabile e non è, pertanto, possibile aggiungere e/o sostituire e/o rimuovere uno o più servizi, ti informiamo che le eventuali modifiche potranno riguardare solo il cronoprogramma dell'intervento, fatte salve le scadenze previste per il conseguimento dei milestone e target associati all’Investimento, e le casistiche inserite nel Decreto Modifiche n. 35/2023 per impossibilità sopravvenuta, per causa non imputabile, di realizzare le attività oggetto del finanziamento.
+
+
+   Il mio Ente ha contrattualizzato un soggetto realizzatore che ha più di un titolare effettivo. Come posso inserirli in piattaforma?
+   \"È possibile aggiungere in piattaforma più titolari effettivi relativi al medesimo fornitore attraverso l'apposita funzionalità presente nella pagina del soggetto realizzatore. Per inserire più nominativi è sufficiente utilizzare il pulsante \"AGGIUNGI UN TITOLARE\". La funzionalità per inserire più titolari effettivi è disponibile anche in presenza di un subappaltatore. È consentito, inoltre, modificare o eliminare i titolari inseriti.\"
+
+
+   Le Aziende Sanitarie della nostra Regione utilizzano diversi software centralizzati, utilizzati da tutte le Aziende Sanitarie. Tali software sono disciplinati da un contratto regionale, da un'Agenzia Regionale o Società in-house, ovvero da un Ente del SSR nominato capofila. Qual è lo scenario di contrattualizzazione per le Aziende?
+   Nel caso di specie, la documentazione della contrattualizzazione dovrà essere composta come segue:
+
+
+   Come posso reperire un documento MEPA già firmato?
+   Accedendo al portale https://www.acquistinretepa.it/opencms/opencms/, attraverso la sezione Acquisti del Cruscotto PA è possibile accedere agli ordini e alle negoziazioni effettuate o in corso.\nRicordiamo che la validità di un documento MEPA è sancita dalla firma digitale entro il numero di giorni di validità indicati sul documento stesso. Una firma successiva non è garanzia del corretto espletamento della procedura MEPA.\nPer avere informazioni o chiarimenti sulle attività e sugli strumenti di acquisto messi a disposizione sul portale Acquisti in Rete, puoi richiedere supporto telefonicamente allo 800 753 783 oppure attraverso il portale https://www.acquistinretepa.it/opencms/opencms/supporto_contatti.html#
+
+
+   Che cos'è il codice CUP?
+   Il Codice Unico di Progetto (CUP) è il codice che identifica un progetto d’investimento pubblico ed è lo strumento cardine per il funzionamento del Sistema di Monitoraggio degli Investimenti Pubblici (MIP). La normativa relativa al CUP vale solo per le Amministrazioni, gli Enti e le società operanti in Italia. Per maggior informazione visitare il sito DIPE.
+
+
+   Dove si può richiedere il codice CUP?
+   Dall'area riservata di PA digitale 2026 le amministrazioni saranno guidate sulla piattaforma ad hoc gestita dal DIPE (Dipartimento per la programmazione ed il coordinamento della politica economica) in cui, attraverso la compilazione di un form guidato, sarà possibile richiedere il CUP.
+
+
+   Quando è necessario richiedere il codice CUP?
+   Successivamente alla notifica dell’ammissibilità al finanziamento, alle PA verrà richiesto di inserire il codice CUP all'interno di PA digitale 2026. L'inserimento del codice CUP è necessario per ottenere il successivo decreto di finanziamento, e dovrà essere completato entro massimo 5 giorni dalla notifica, come previsto dall’art.10 comma 4 degli avvisi ai quali fa riferimento.
+
+
+   Ho generato il CUP per l'accettazione di un finanziamento senza utilizzare il template indicato nell'avviso, come posso sanare la situazione per evitare che il mio progetto venga scartato?
+   In caso di generazione di CUP senza utilizzo del template si rischia di avere un corredo informativo del progetto errato che può provocare errori nel sistema di monitoraggio (es: natura del finanziamento diversa da \"\"Acqusito o realizzazione di servizi\"). In tali casi, qualora siano trascorse 72 ore dall'attivazione del CUP è necessario comunicare la richiesta di modifica tramite apposito form sulla piattaforma CUP, disponibile al link: https://cupweb.rgs.mef.gov.it/CUPWeb/, una volta effettuato l'accesso con il nominativo di chi ha creato il CUP da modificare, selezionare il CUP e seguire la procedura guidata per chiedere la modifica e l'applicazione del template correlato all'avviso premendo su \"\"Invio richiesta modifica CUP\"\".\nQualora non fosse possibile accedere con l'utenza utilizzata per creare il cup da modificare, è possibile effettuare una richiesta di supporto dal seguente link: https://cupweb.rgs.mef.gov.it/CUPWeb/richiediAssistenza.do?service=init
+
+
+   Quali sono gli obblighi di pubblicità sui fondi ricevuti?
+   Ti ricordiamo che il Soggetto Attuatore destinatario dei finanziamenti dell'Unione deve obbligatoriamente riportare, su qualsiasi comunicazione verso l'esterno, l'origine degli stessi con la seguente dichiarazione: \"Finanziato dall'Unione europea - NextGenerationEU\, mostrando il logo dell’Unione Europea e assicurandoti che sia ben visibile. Entrambi gli elementi devono essere presenti, in particolare, quando vengono promossi risultati e azioni e diffuse informazioni destinate ai media e al vasto pubblico. Non è obbligatorio né necessario, invece, inserire il logo nei contratti, nelle determine e negli ordini di servizio. Per maggiori informazioni, visita la pagina dedicata.
+
+
+   In caso di fusione/acquisizione del Soggetto Realizzatore (fornitore), quale procedura bisogna attuare in piattaforma?
+   In caso di fusione di una società con un’altra, l’ente è tenuto a produrre una nota esplicativa che illustri il cambio intervenuto nel Soggetto Realizzatore, corredata di eventuale documentazione a supporto (ad esempio, l’atto di fusione).\nTale documentazione dovrà essere caricata all’interno della piattaforma nello step 3.\nInoltre, occorre aggiungere il nuovo fornitore e rimuovere il soggetto fuso/incorporato/acquisito nella fase 1 “Soggetti realizzatori” del progetto.\nSuccessivamente, è necessario associare le relative attività nello step 2 “Assegnazione attività” e caricare nuovamente i contratti originali già in essere nello step 3 “Caricamento contratti”.
+
+
+   Come è possibile risolvere le incongruenze relative alla data di completamento attività e a quella di contrattualizzazione rilevate nella fase 4 “Completamento attività” del progetto?
+   Per risolvere le incongruenze, puoi effettuare tre verifiche nella fase 3 “Caricamento contratti”:
+
+
+   Come compilare correttamente la documentazione contrattuale?
+   Per compilare la documentazione, assicurati che:
+
+
+   Come posso inviare una segnalazione o un suggerimento di accessibilità?
+   Se desideri inviare segnalazioni o suggerimenti sull’accessibilità di questo sito web padigitale2026.gov.it, puoi contattarci alla casella di posta dedicata
+
+
+   Quali browser sono supportati per la navigazione di PA digitale 2026?
+   È possibile navigare la piattaforma con i browser più comuni, come Chrome, Firefox e Safari, ad eccezione di Internet Explorer 11, che non è supportato dal sistema.
+
+
+   Non ho ricevuto l'email di verifica: come posso finalizzare l’iscrizione agli aggiornamenti di PA digitale 2026?
+   Se non trovi l’email che contiene il link per verificare l’indirizzo di posta sul quale vuoi ricevere gli aggiornamenti della piattaforma, ti consigliamo di:
+
+
+   Come posso annullare la mia iscrizione agli aggiornamenti?
+   Se desideri interrompere la ricezione di comunicazioni e aggiornamenti da PA digitale 2026, usa il link “Annulla iscrizione” presente nella sezione finale di ogni email.
+
+
+   Quali sono i requisiti per il caricamento in piattaforma di un documento firmato in formato p7m, laddove richiesto?
+   Perché la procedura di caricamento di un documento firmato vada a buon fine, è indispensabile che il documento d’origine creato e scaricato dalla piattaforma non venga salvato dopo averlo visionato, prima di apporre la firma.  Si consiglia quindi di seguire i seguenti passaggi:
+
+
+   Come posso aggiornare la PEC dell’ente in piattaforma?
+   Per aggiornare la PEC, segui questi passaggi:
+
+
+   Ho riscontrato dei problemi di visualizzazione dei contenuti su PA digitale 2026. Come posso risolverli?
+   PA digitale 2026 è accessibile e utilizzabile con tutti i principali browser. Per un’esperienza ottimale, ti suggeriamo di utilizzare l’ultima versione del browser Google Chrome.
+
+
+   Qual è l’obiettivo del questionario di classificazione dati e servizi?
+   Il questionario di classificazione è necessario per valutare gli impatti in termini di eventuale compromissione dei dati gestiti dai servizi della PA. Il questionario di classificazione deve essere compilato solo se la PA non accetta la classificazione automatica di un servizio proposta dalla piattaforma. Compilando il questionario, pertanto, la PA fornisce informazioni essenziali per classificare il servizio.
+
+
+   Chi deve compilare il questionario di classificazione dati e servizi?
+   La compilazione del questionario può essere effettuata da qualsiasi utente della piattaforma associato all'amministrazione: solo il Rappresentante legale o l'Incaricato possono però convalidare e completare la procedura di classificazione
+
+
+   Posso interrompere la compilazione del questionario dati e servizi per riprenderla in un secondo momento?
+   Sì, è possibile interrompere la compilazione del questionario e riprenderla in un momento successivo: cliccando su “Salva in bozza” al fondo della pagina “Classificazione dati e servizi” è possibile salvare i contenuti inseriti e uscire della procedura. È possibile poi riprendere la compilazione in qualsiasi momento accedendo all’area riservata di PA digitale 2026, alla sezione Scrivania.
+
+
+   Per quali servizi è necessario compilare il questionario di classificazione dati e servizi?
+   Il questionario di classificazione deve essere compilato solo in due casi:
+
+
+   È obbligatorio compilare le sezioni 5 e 6 del questionario di classificazione dati e servizi?
+   No, non è obbligatorio compilare le sezioni 5 e 6 del questionario; tuttavia, queste aiutano a valutare, rispettivamente, gli impatti per i servizi digitali e le tipologie di dati digitali che vengono gestiti nell'ambito del servizio. Queste informazioni, considerate accessorie, sono molto utili per la migrazione dei servizi verso gli ambienti Cloud, pertanto la compilazione è fortemente consigliata.
+
+
+   Cosa si intende per \"allegare la documentazione a supporto che giustifichi il livello di classificazione diverso\"? Che tipo di documenti devo allegare?
+   Nella sezione “Esito” del questionario è possibile allegare eventuale documentazione per accettare l’esito del questionario che differisce dalla classificazione automatica presentata dal sistema. È necessario allegare come documentazione a supporto elaborati circa analisi del rischio o di impatto (i.e. Business Impact Analysis), che aiutino a giustificare, e in seguito a valutare, il diverso livello di classificazione.
+
+
+   Non riesco a caricare correttamente i documenti a supporto nella fase “Esito” del questionario: cosa posso fare?
+   Il messaggio di errore potrebbe essere causato da una non conformità con i requisiti richiesti per il caricamento del file: il formato deve avere estensione .PDF e il peso massimo deve essere di 2 MB.
+
+
+   Entro quando devo inviare la classificazione dati e servizi?
+   La classificazione dei dati e dei servizi deve essere inviata entro il 18 luglio 2022: le PA, infatti, devono trasmettere all’Agenzia per la Cybersicurezza Nazionale (ACN) la classificazione dei dati e dei servizi digitali per abilitare il processo di migrazione verso gli ambienti cloud.
+
+
+   Chi riceve la classificazione dati e servizi?
+   La classificazione dei dati e dei servizi, una volta compilata dalla PA, viene inviata all'Agenzia per la Cybersicurezza Nazionale (ACN). ACN effettuerà le verifiche di conformità necessarie nel caso siano state effettuate delle modifiche alla classificazione automatica creata del sistema.
+
+
+   Cosa si intende per ordinario, critico, strategico?
+   Ordinario, critico e strategico sono i livelli individuati per i servizi: riflettono gli impatti generati in termini di riservatezza, disponibilità e integrità dei dati trattati, nel caso i servizi vengano compromessi.  Nel dettaglio:
+
+
+   Posso aggiungere servizi che non sono presenti nell'elenco creato automaticamente?
+   Sì, è possibile aggiungere uno o più servizi alla lista dei servizi gestiti dalla PA che viene visualizzata al momento della compilazione della procedura. Per ciascun servizio aggiunto all’elenco, è necessario compilare il questionario per determinarne la classificazione. Una volta inviata la classificazione, la lista dei servizi aggiornata, corredata dal questionario compilato per il servizio aggiunto (o i servizi aggiunti), sarà inviata all’Agenzia Nazionale per la Cybersicurezza per le verifiche di conformità.
+
+
+   Posso accettare l'elenco predefinito dei servizi e la relativa classificazione automatica?
+   Sì, è possibile accettare l’elenco predefinito dei servizi e la relativa classificazione creata automaticamente: per ciascun servizio presente in pagina è necessario confermare la classificazione proposta automaticamente selezionando “Confermo” in ciascun servizio, senza integrare o modificare la lista di servizi presente in pagina. Una volta accettate tutte le classificazioni automatiche, è necessario inviare la classificazione tramite il bottone presente sul fondo della pagina “Classificazione dati e servizi”, confermando l’azione quando richiesto.
+
+
+   Posso modificare la classificazione automatica proposta?
+   Sì, è possibile non accettare la classificazione creata automaticamente selezionando “Non confermo” in ciascun servizio. Alla selezione, è obbligatorio compilare il questionario per determinare la nuova classificazione.
+
+
+   Cosa succede se accetto l'elenco predefinito dei servizi e la relativa classificazione automatica?
+   Una volta confermato l’elenco predefinito dei servizi e la relativa classificazione automatica, la procedura di classificazione è completata: tramite una PEC, inviata automaticamente all’indirizzo indicato in fase di attivazione della PA sul portale, viene inviata la convalida dell’esito della classificazione. Inoltre, la comunicazione è corredata da un allegato con l’esito della classificazione e l’elenco dei servizi e le relative classificazioni automatiche accettate.
+
+
+   Voglio eliminare un servizio che vedo nell'elenco proposto perché la mia PA non eroga quel servizio e non ha intenzione di erogarlo in futuro: è possibile?
+   Sì, è possibile eliminare un servizio proposto se la PA di riferimento non è interessata ad erogare quel servizio e non lo sarà in futuro. È possibile eseguire l’operazione selezionando 'Elimina servizio' in corrispondenza del servizio che si vuole eliminare e confermare : questo non verrà inserito tra i servizi erogati dalla PA e pertanto non potrà essere considerato per la partecipazione agli Avvisi del PNRR presenti su PA digitale 2026. È in ogni caso possibile, prima di inviare la classificazione, ripristinare il servizio in questione selezionando 'Ripristina servizio'.
+
+
+   Voglio aggiungere un servizio erogato dalla mia PA che non è presente nell’elenco proposto: è possibile?
+   È possibile aggiungere un servizio a quelli della lista creata automaticamente dal sistema: occorre selezionare il bottone “Aggiungi nuovo servizio”, inserire il nome del servizio che si vuole aggiungere e il riferimento normativo che abilita la PA ad erogarlo. Occorre poi compilare il questionario per determinare la classificazione del servizio aggiunto. Ricorda che, in caso di candidatura ad un avviso, non potrai finanziare questo servizio.
+
+
+   Sono un Editore per la mia PA e non riesco a inviare la classificazione dei dati e dei servizi perché la selezione del bottone INVIA a fondo della pagina “Classificazione dati e servizi” non dà risultati: cosa posso fare?
+   L'utenza di tipo Editore può confermare la classificazione, compilare il questionario, aggiungere o rimuovere un servizio, ma non può inviare la procedura, che può essere completata solo dal Rappresentante legale o da un suo Incaricato.
+
+
+   Ho apportato modifiche ai servizi e/o compilato almeno un questionario non confermando la classificazione automatica, entro quanto tempo verrà valutata la nuova classificazione dati e servizi?
+   L'Agenzia per la Cybersicurezza Nazionale fornisce un riscontro sulla conformità dell’elenco dei servizi e della classificazione entro 90 giorni dalla ricezione della documentazione. L’Agenzia può prorogare questo termine nel caso siano necessari degli approfondimenti: il termine viene posticipato al massimo per ulteriori 30 giorni, e in ogni caso non più di una volta. Se invece è necessario richiedere alla PA integrazioni o informazioni aggiuntive, la procedura viene interrotta e i termini cominciano a decorrere nuovamente dal momento in cui vengono ricevute le informazioni richieste, che devono essere fornite entro 30 giorni. Nel caso non dovesse esserci nessun riscontro entro 90 giorni o, nel caso di posticipo, entro 120 giorni, l’elenco e la classificazione dei dati e dei servizi sono convalidati.
+
+
+   Ho ricevuto una notifica e una PEC con richieste di integrazione alla classificazione dati e servizi da parte dell’Agenzia per la Cybersicurezza Nazionale (ACN): cosa devo fare?
+   È necessario entrare nell’area riservata di PA digitale 2026, accedere alla Scrivania della PA e apportare le modifiche segnalate da ACN. Una volta apportate le modifiche, è necessario inviare nuovamente la classificazione. In questo momento, lo stato della procedura passerà da “Da modificare” a “In valutazione”. È in ogni caso necessario apportare le modifiche richieste entro 30 giorni dalla ricezione della PEC e della notifica.
+
+
+   Posso indicare dei numeri approssimativi di dati personali nella compilazione della sezione 4 – Riservatezza delle informazioni?
+   Sì, l’obiettivo è di avere un ordine di grandezza il più realistico possibile della numerosità di dati trattati, pertanto anche eventuali arrotondamenti sono accettati (ad esempio, 1.224.000 dati anagrafici possono essere indicati come 1.200.000). Non è invece possibile indicare numeri decimali o minori di zero.
+
+
+   È possibile richiedere l’aggiornamento della classificazione dati e servizi?
+   Sì. Una PA può inviare una PEC all’Agenzia Nazionale per la Cybersicurezza all'indirizzo acn@pec.acn.gov.it per aggiornare la classificazione dati e servizi precedentemente inviata. Accolta la richiesta dall’Agenzia, la classificazione verrà riportata in stato \"In bozza\". La PA riceverà una PEC e una notifica in piattaforma e sarà informata che la classificazione è disponibile per gli opportuni aggiornamenti. Nel caso in cui la PA abbia una candidatura 1.2 in stato \"In bozza\" verrà annullata in automatico. Invece, nel caso in cui la PA abbia una candidatura 1.2 inviata, non potrà eliminare i servizi selezionati nella candidatura 1.2 e visualizzerà un messaggio di errore. Qualora la PA fosse intenzionata a eliminare alcuni servizi dalla classificazione, dovrà ritirare la candidatura all’avviso 1.2 per avviare una nuova classificazione. In questo modo, si potrà ricandidare all’avviso 1.2 con la lista di servizi aggiornata.
+
+
+   Cosa sono i piani di migrazione?
+   I piani di migrazione dei dati e dei servizi digitali delle amministrazioni sono previsti dall’articolo 10, comma 1, del regolamento adottato con determinazione AGID n. 628/2021 del 15 dicembre 2021.
+
+
+   Dove è possibile compilare il piano di migrazione all'interno di PA digitale 2026?
+   È possibile compilare il piano di migrazione nella sezione \"Classificazione e cloud\, accedendo all'area riservata della piattaforma.
+
+
+   Ci sono eccezioni all'obbligo di inviare il piano di migrazione?
+   Tutte le amministrazioni centrali e locali così come individuate dall'elenco ISTAT, sono obbligate ad inviare il piano di migrazione, salvo i casi di deroga previsti dall'articolo 33-septies del DL 179/2012. Tutte le amministrazioni che abbiano presentato una candidatura per la misura 1.2 e che non necessitino di integrare il piano già presentato attraverso la suddetta candidatura, non devono effettuare ulteriori azioni.
+
+
+   Ho già inviato una candidatura a valere sull'Avviso riferito alla misura 1.2, ci sono ulteriori adempimenti?
+   Se hai già inviato una candidatura 1.2 ed il tuo Ente ha ulteriori servizi da migrare, puoi compilare un'integrazione al piano di migrazione. Tutte le amministrazioni che hanno presentato una candidatura per la misura 1.2 e che non necessitano di integrare il piano già presentato non devono effettuare ulteriori azioni.
+
+
+   Quali servizi è necessario inserire all'interno del piano di migrazione?
+   È necessario inserire tutti i servizi che l'ente intende migrare al cloud ai fini del rispetto dell'obbligo indicato all'articolo 33-septies del DL 179/2012.
+
+
+   Sono previsti dei requisiti per l'invio del piano di migrazione?
+   Sì, per compilare il piano di migrazione è necessario aver già inviato la classificazione dei dati e dei servizi, come previsto dall’articolo 3 del regolamento adottato con determinazione AGID n. 628/2021 del 15 dicembre 2021.
+
+
+   Entro quando è necessario inviare il piano di migrazione?
+   Le amministrazioni devono trasmettere i piani di migrazione entro il 28 febbraio 2023.
+
+
+   Entro quando occorre completare le attività previste dal piano di migrazione?
+   Le amministrazioni sono tenute a completare le attività previste dal piano di migrazione entro il 30 giugno 2026. Per ottenere i finanziamenti PNRR è comunque necessario attenersi alle scadenze specificate nei relativi avvisi.
+
+
+   Nel Piano di migrazione devo inserire solo i servizi che non ho ancora migrato o anche quelli già migrati in passato?
+   L'Ente deve indicare tutti i servizi da migrare alla data di presentazione del piano di migrazione, nel rispetto dell'obbligo indicato all'articolo 33-septies DL 179/2012. Se alla data di presentazione del piano di migrazione e in base alla classificazione dei dati e servizi effettuata, l'amministrazione dovesse riscontrare di non dover migrare alcuni dati e servizi - in quanto già migrati precedentemente verso il PSN o data center adeguati / soluzioni cloud qualificate in base ai requisiti del Regolamento Cloud AGID del 15 dicembre 2021, della Determina 307 ACN del 18 gennaio 2022 e a quanto previsto dal Decreto ACN del 2 gennaio 2023 - tali dati e servizi non dovranno essere inseriti nel piano di migrazione.
+
+
+   Ho inviato una candidatura a valere sull'Avviso 1.2 che si trova attualmente in stato \"Accettata\". Risulta tuttavia inibita la compilazione del piano di migrazione: come posso procedere?
+   Per potere inviare un piano di migrazione a seguito dell'invio di una candidatura a valere sull'Avviso 1.2, è necessario attendere la PEC di emissione del Decreto di finanziamento.
+
+
+   Come posso compilare il piano di migrazione?
+   Gli enti dovranno inviare i piani di migrazione esclusivamente attraverso PA digitale 2026, non sono previste ulteriori modalità di invio.
+
+
+   I dati relativi alla PA sul piano di migrazione non sono corretti: come posso modificarli?
+   Se si riscontrano inesattezze nella visualizzazione dei dati della PA, è necessario modificarli su IPA (https://indicepa.gov.it/ipa-portale/). A seguito dell'aggiornamento dei dati dell'ente (per esempio quelli del rappresentate legale), sarà possibile procedere correttamente all'invio del piano di migrazione attraverso la sezione \"Classificazione e cloud\, presente nell'area riservata della piattaforma.
+
+
+   È possibile accedere al finanziamento in caso di realizzazione delle attività, con l'ausilio di fondi pubblici,nazionali, regionali o europei prima della pubblicazione dell'Avviso?
+   No, il finanziamento concesso con il presente Avviso non è cumulabile con altri finanziamenti pubblici, nazionali, regionali o europei, per le stesse spese ammissibili, secondo quanto previsto dall'art. 8 comma 5 dell'Avviso.
+
+
+   È possibile accedere al finanziamento in caso di realizzazione della attività oggetto di finanziamento prima della pubblicazione dell'Avviso?
+   Sono ammissibili a contributo tutte le attività di migrazione di dati e servizi al PSN avviate a decorrere al massimo dal 1° gennaio 2023 con risorse finanziarie proprie.
+
+
+   Quali sono le destinazioni ammissibili per la migrazione dei servizi?
+   L'avviso finanzia solo ed esclusivamente migrazioni verso il PSN come destinazione finale contrattualizzate con la società Polo Strategico Nazionale S.p.A.. Si precisa che:
+
+
+   Le amministrazioni centrali con un finanziamento riconosciuto inferiore a 1.500.000,00 euro, quanto tempo hanno per attivare il contratto con Polo Strategico Nazionale S.p.A. e completare le attività?
+   Per le amministrazioni centrali di cui all’Allegato A che hanno riconosciuto un finanziamento inferiore o pari a 1.500.000,00 euro:
+
+
+   Le amministrazioni centrali con un finanziamento riconosciuto superiore a 1.500.000,00 euro, quanto tempo hanno per attivare il contratto con Polo Strategico Nazionale S.p.A. e completare le attività?
+   Per le amministrazioni centrali identificate quali potenziali beneficiarie dell'avviso che hanno riconosciuto un finanziamento superiore a 1.500.000,00 euro:
+
+
+   Quando si intende concluso con esito positivo il processo di migrazione?
+   Il processo di migrazione dei servizi finanziati si intende concluso con esito positivo al momento in cui l’Ente effettuerà comunicazione, attraverso la piattaforma, del rilascio in esercizio di ciascuno dei servizi identificati - come indicati nella Dichiarazione sostitutiva di atto notorio ai sensi degli\nartt. 46 e 47 del D.P.R. n. 445/2000 sottoscritta dal legale rappresentante dell’Amministrazione o del soggetto responsabile incaricato di cui al capitolo “Attestazione dei server fisici e delle macchine virtuali alla data di candidatura e relativa documentazione a comprova”, che intende migrare verso il PSN e per i quali richiede il finanziamento - inviando il Questionario di assessment con lo stato “Completato” per ciascun servizio in oggetto.
+
+
+   Ci sono limiti in merito alla quantità di server fisici e macchine virtuali da implementare?
+   Ai fini dell'avviso, il numero di server fisici finanziabile massimo è pari a 40, mentre per le macchine virtuali è pari a 400.
+
+
+   Il canone del primo anno dei servizi Cloud è incluso nel finanziamento?
+   Gli importi indicati nell'Allegato 2 includono già il canone del servizio Cloud relativo al primo anno.
+
+
+   Come devono essere compilati i file di attestazione dei server fisici / macchine virtuali per la gestione di un progetto?
+   Le indicazioni per la compilazione dell'attestazione sono presenti nell'Allegato 2 all'Avviso. Si invita alla consultazione di tali indicazioni prima della compilazione dei file.\nSi ricorda in ogni caso che, l’attestazione dei server fisici e delle macchine virtuali, relativa alla documentazione a comprova, deve essere eseguita su PA digitale 2026 mediante la compilazione ed il successivo caricamento dei file contenenti la lista dei server fisici/macchine virtuali.\nI template dei server fisici / macchine virtuali sono precompilati dalla piattaforma a partire dalle informazioni inserite in fase di adesione all’Avviso e al piano di migrazione secondo regolamento AGID.\nI file generati riportano nelle righe il numero di server fisici/macchine virtuali inseriti in fase di candidatura e una colonna per ogni servizio inserito nel piano di migrazione della PA.\nLa compilazione del file richiede che:
+
+
+   Quali sono gli scenari di migrazione ammissibili?
+   In base al sistema di origine solo alcune modalità di migrazione sono ammissibili per ricevere l'erogazione del finanziamento.\nGli scenari ammissibili sono i seguenti:
+
+
+   È possibile erogare un servizio SaaS Qualificato ACN presso un CSP diverso da quello indicato nella scheda servizio pubblicata su marketplace?
+   In caso di cambio CSP sottostante ad un servizio SaaS, bisogna effettuare una nuova qualifica. Prerequisito è che il CSP di destinazione sia qualificato. La nuova qualifica deve essere tempestivamente inviata ad ACN che provvederà alla sua valutazione. La stessa include anche la conformità legislativa secondo cui il fornitore cloud deve rendere nota la localizzazione delle proprie infrastrutture e dove transiteranno i dati gestiti (e.g. IT, UE, Extra UE).
+
+
+   Quali sono gli scenari ammissibili di migrazione al Cloud con riferimento al passaggio da IaaS qualificato a SaaS?
+   Il passaggio da IaaS Qualificato a Saas risulta ammissibile solo se il passaggio da on premise strutturato a Iaas Qualificato è avvenuto dopo il 1° Febbraio 2020 ed è il primo step di una migrazione più impattante che prevede, come step finale, il SaaS. Ulteriori approfondimenti sono disponibili sui chiarimenti pubblicati nella sezione dedicata all'Avviso 1.2 nella finestra n. 3 del 27/11/2022.
+
+
+   Ho migrato un servizio in modalità B - Aggiornamento anziché in modalità A - Trasferimento, come inizialmente dichiarato in candidatura. Cosa dovrò fare in vista dell'asseverazione?
+   Alla luce dell’aggiornamento delle Linee guida per i Soggetti attuatori, è consentito realizzare servizi in modalità migliorativa, cioè realizzare in modalità B “Aggiornamento di applicazioni sicure in Cloud” servizi che in candidatura erano stati inseriti con modalità A “Trasferimento in sicurezza dell’infrastruttura IT”.\nAl fine di superare l’asseverazione, allo step 4 di progetto (Completamento delle attività), l’ente dovrà selezionare il servizio impattato, associare l’effettiva destinazione cloud migliorativa realizzata (Paas o Saas), procedere con la compilazione delle informazioni tecniche che saranno richieste dalla piattaforma e firmare digitalmente la “Dichiarazione dei servizi realizzati in modalità migliorativa” .\nSi ricorda che la valutazione positiva dell’effettiva migrazione in modalità “B - Aggiornamento” non comporterà una variazione del contributo riconosciuto all’ente in fase di candidatura.\nUlteriori chiarimenti sono disponibili nelle Linee Guida Avvisi LUMP SUM e, in particolare, nell'Allegato 1, paragrafo 7 disponibile al seguente link (Linee Guida Soggetti Attuatori, Versioni in vigore).
+
+
+   Quali enti della PA possono presentare domanda per accedere al finanziamento dall'Avviso riferito alla Misura 1.2 \"ASL/AO\"?
+   I Soggetti Attuatori, ovvero coloro che possono accedere allo strumento predisposto dall'Avviso, sono i Comuni.
+
+
+   È possibile accedere al finanziamento in caso di realizzazione della migrazione al cloud prima della pubblicazione dall'Avviso riferito alla Misura 1.2?
+   Sì, sono ammissibili a contributo tutte le attività di assessment, pianificazione della migrazione, esecuzione della migrazione e formazione dei servizi indicati in allegato 2 al presente Avviso avviate a decorrere dal 1° febbraio 2020 con risorse finanziarie proprie.
+
+
+   È possibile accedere al finanziamento in caso di realizzazione della migrazione al cloud, con l'ausilio di Fondi pubblici,nazionali, regionali o europei prima della pubblicazione dell'Avviso riferito alla Misura 1.2?
+   No, il finanziamento concesso con il presente Avviso non è cumulabile con altri finanziamenti pubblici, nazionali, regionali o europei, per le stesse spese ammissibili, secondo quanto previsto dall'art. 8 comma 5 dell'Avviso.
+
+
+   Di quante modalità di migrazione può avvalersi un Comune al fine di rispondere correttamente ai requisiti previsti dall'Avviso riferito alla Misura 1.2?
+   Il Comune potrà effettuare la migrazione avvalendosi dei due modelli di migrazione come delineato nella strategia nazionale per il cloud:- Trasferimento in sicurezza dell’infrastruttura IT- Aggiornamento in sicurezza di applicazioni in Cloud.
+
+
+   Un Comune è obbligato ad adottare la stessa modalità di migrazione per tutti i servizi?
+   No, l’Ente potrà selezionare - singolarmente per ognuno dei servizi oggetto della migrazione - il modello di migrazione più adatto da presentare all’interno del piano di migrazione.
+
+
+   Il Canone del primo anno è incluso nel finanziamento?
+   Insieme al totale disponibile per i servizi, all’Ente sarà aggiunto al calcolo 1 anno di canone di servizio cloud dell'importo indicato nell'allegato 2 corrispondente alla fascia di popolazione del Comune.
+
+
+   Come deve essere rendicontato il contributo?
+   Il finanziamento, nella misura dell’importo forfettario, sarà erogato in un’unica soluzione a seguito del perfezionamento delle attività di migrazione al cloud oggetto del finanziamento per come disposto all’art. 13 del presente Avviso. Non è prevista la rendicontazione a costi reali.
+
+
+   Quali tipologie di servizi potranno essere oggetto di migrazione?
+   Oggetto di migrazione potranno essere tutti i servizi erogati in tutte le loro forme dal singolo Ente, indicati nell'Allegato 2 corrispondente alla fascia di popolazione del Comune e il cui livello complessivo di efficienza possa essere ottimizzato attraverso una migrazione verso piattaforme Cloud qualificate. Potranno essere oggetto di migrazione tutti e solo i servizi che sono stati precedentemente classificati.
