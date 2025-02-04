@@ -1,0 +1,18 @@
+{
+  "name": "RagPADigitale2026UI",
+  "dockerFile": "Dockerfile",
+  "mounts": [
+    "source=${localWorkspaceFolderBasename}-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
+  ],
+  "postCreateCommand": "bun install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "oven.bun-vscode"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/kreemer/features/chrometesting:1": {}
+  }
+}
