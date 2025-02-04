@@ -1,5 +1,5 @@
 "use client";
-import { useState, ChangeEvent, KeyboardEvent, useRef, useEffect } from "react";
+import { useState, ChangeEvent, useRef, useEffect } from "react";
 import { AiOutlineSend } from "react-icons/ai";
 
 interface Message {
