@@ -10,12 +10,12 @@ interface Message {
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState<string>("");
-  const [isLoading, setIsLoading] = useState<boolean>(false)
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
 
   // Funzione per scrollare verso l'ultimo messaggio
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleSend = async () => {
@@ -39,15 +39,20 @@ export default function Home() {
       if (!response.ok) throw new Error("Errore nella richiesta");
 
       const data = await response.json();
-      setMessages((prev) => [...prev, { user: false, text: data.reply }]);
+      setTimeout(() => {
+        setMessages((prev) => [...prev, { user: false, text: data.reply }]);
+      }, 2000);
     } catch (error) {
       console.error("Errore:", error);
+
       setMessages((prev) => [
         ...prev,
         { user: false, text: "Errore nella risposta del server." },
       ]);
     } finally {
-      setIsLoading(false);
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 1000);
     }
   };
 
@@ -55,9 +60,14 @@ export default function Home() {
     setInput(e.target.value);
   };
 
-  const handleKeyPress = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter") handleSend();
-  };
+  // const handleKeyPress = (e: KeyboardEvent<HTMLInputElement>) => {
+  //   if (e.key === "Enter") handleSend();
+  // };
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    handleSend();
+  }
 
   useEffect(() => {
     scrollToBottom();
@@ -82,14 +92,14 @@ export default function Home() {
             </div>
           </div>
         ))}
-                {/* Loader visibile durante l'attesa della risposta */}
-                {isLoading && (
-          <div className="flex justify-start mb-2">
-            <div className="p-3 rounded-lg bg-gray-300 text-black max-w-xs">
-              <div className="flex space-x-1">
-                <span className="block w-2 h-2 bg-black rounded-full animate-bounce"></span>
-                <span className="block w-2 h-2 bg-black rounded-full animate-bounce delay-100"></span>
-                <span className="block w-2 h-2 bg-black rounded-full animate-bounce delay-200"></span>
+        {/* Loader visibile durante l'attesa della risposta */}
+        {isLoading && (
+          <div className='flex justify-start mb-2'>
+            <div className='p-3 rounded-lg bg-gray-300 text-black max-w-xs'>
+              <div className='flex space-x-1'>
+                <span className='block w-2 h-2 bg-black rounded-full animate-bounce'></span>
+                <span className='block w-2 h-2 bg-black rounded-full animate-bounce delay-100'></span>
+                <span className='block w-2 h-2 bg-black rounded-full animate-bounce delay-200'></span>
               </div>
             </div>
           </div>
@@ -98,23 +108,25 @@ export default function Home() {
         {/* Riferimento all'ultimo messaggio */}
         <div ref={messagesEndRef} />
       </div>
-
-      <div className='flex items-center p-4 bg-white border-t'>
-        <input
-          type='text'
-          value={input}
-          onChange={(e) => handleInputChange(e)}
-          onKeyPress={(e) => handleKeyPress(e)}
-          placeholder='Scrivi un messaggio...'
-          className='flex-1 p-2 border rounded-lg text-black'
-        />
-        <button
-          onClick={() => handleSend()}
-          className='ml-2 p-2 bg-blue-500 text-white rounded-lg'
-        >
-          <AiOutlineSend />
-        </button>
-      </div>
+      <form onSubmit={(e) => handleSubmit(e)}>
+        <div className='flex items-center p-4 bg-white border-t'>
+          <input
+            type='text'
+            value={input}
+            onChange={(e) => handleInputChange(e)}
+            // onKeyPress={(e) => handleKeyPress(e)}
+            placeholder='Scrivi un messaggio...'
+            className='flex-1 p-2 border rounded-lg text-black'
+          />
+          <button
+            type='submit'
+            // onClick={() => handleSend()}
+            className='ml-2 p-2 bg-blue-500 text-white rounded-lg'
+          >
+            <AiOutlineSend />
+          </button>
+        </div>
+      </form>
     </div>
   );
 }

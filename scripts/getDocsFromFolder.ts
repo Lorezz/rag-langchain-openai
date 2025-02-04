@@ -1,6 +1,7 @@
 import { Document } from "@langchain/core/documents";
 import fs from "fs/promises";
 // const { convert } = require("html-to-text");
+// import { htmlToText } from "html-to-text";
 
 export default async function getDocsFromFolder(folderPath: string) {
   const docs: Document[] = [];
@@ -8,7 +9,7 @@ export default async function getDocsFromFolder(folderPath: string) {
     const dir = await fs.opendir(folderPath);
     for await (const entry of dir) {
       console.log(entry.name);
-      const ext = entry.name.split(".").pop();
+      const ext = entry?.name?.split(".").pop() || "";
       if (["md", "txt", "html"].includes(ext)) {
         const content = await fs.readFile(
           `${folderPath}/${entry.name}`,
@@ -21,7 +22,7 @@ export default async function getDocsFromFolder(folderPath: string) {
           // const options = {
           //   wordwrap: 130,
           // };
-          // pageContent = convert(content, options);
+          // pageContent = htmlToText(content, options);
         }
         docs.push(
           new Document({

@@ -1,6 +1,6 @@
 import "dotenv/config";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
-import getDocsFromFolder from "./lib/getDocsFromFolder";
+import getDocsFromFolder from "./scripts/getDocsFromFolder";
 import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import type { ChatPromptTemplate } from "@langchain/core/prompts";
