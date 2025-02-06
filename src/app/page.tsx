@@ -1,6 +1,7 @@
 "use client";
-import { useState, ChangeEvent, useRef, useEffect } from "react";
-import { AiOutlineSend } from "react-icons/ai";
+import { ChangeEvent, useEffect, useRef, useState } from "react";
+import { AiOutlineLoading3Quarters, AiOutlineSend } from "react-icons/ai";
+import { send } from "./chat-service";
 
 interface Message {
   user: boolean;
@@ -8,12 +9,18 @@ interface Message {
 }
 
 export default function Home() {
+  //#region state
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState<string>("");
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const messagesEndRef = useRef<HTMLDivElement | null>(null);
+  //#endregion
 
-  // Funzione per scrollare verso l'ultimo messaggio
+  //#region refs
+  const inputRef = useRef<HTMLInputElement>(null);
+  const messagesEndRef = useRef<HTMLDivElement | null>(null);
+  //#endregion
+
+  //#region event handlers
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -21,38 +28,23 @@ export default function Home() {
   const handleSend = async () => {
     if (!input.trim()) return;
 
-    // Aggiungi il messaggio dell'utente
-    setMessages((prev) => [...prev, { user: true, text: input }]);
-    const userMessage = input;
-    setInput("");
+    const message = input;
 
+    setMessages((prev) => [...prev, { user: true, text: input }]);
+    setInput("");
     setIsLoading(true);
 
     try {
-      // Invio del messaggio all'API
-      const response = await fetch("/api/chat", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: userMessage }),
-      });
-
-      if (!response.ok) throw new Error("Errore nella richiesta");
-
-      const data = await response.json();
-      setTimeout(() => {
-        setMessages((prev) => [...prev, { user: false, text: data.reply }]);
-      }, 2000);
+      const data = await send({ message });
+      setMessages((prev) => [...prev, { user: false, text: data.reply }]);
     } catch (error) {
       console.error("Errore:", error);
-
       setMessages((prev) => [
         ...prev,
         { user: false, text: "Errore nella risposta del server." },
       ]);
     } finally {
-      setTimeout(() => {
-        setIsLoading(false);
-      }, 1000);
+      setIsLoading(false);
     }
   };
 
@@ -60,18 +52,21 @@ export default function Home() {
     setInput(e.target.value);
   };
 
-  // const handleKeyPress = (e: KeyboardEvent<HTMLInputElement>) => {
-  //   if (e.key === "Enter") handleSend();
-  // };
-
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     handleSend();
   }
+  //#endregion
 
+  //#region effects
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
+
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
+  //#endregion
 
   return (
     <div className='flex flex-col h-screen bg-gray-100'>
@@ -79,14 +74,12 @@ export default function Home() {
         {messages?.map((msg, index) => (
           <div
             key={index}
-            className={`flex ${
-              msg.user ? "justify-end" : "justify-start"
-            } mb-2`}
+            className={`flex ${msg.user ? "justify-end" : "justify-start"
+              } mb-2`}
           >
             <div
-              className={`p-3 rounded-lg ${
-                msg.user ? "bg-blue-500 text-white" : "bg-gray-300 text-black"
-              } max-w-xs`}
+              className={`p-3 rounded-lg ${msg.user ? "bg-blue-500 text-white" : "bg-gray-300 text-black"
+                } max-w-xs`}
             >
               {msg.text}
             </div>
@@ -113,17 +106,17 @@ export default function Home() {
           <input
             type='text'
             value={input}
+            ref={inputRef}
             onChange={(e) => handleInputChange(e)}
-            // onKeyPress={(e) => handleKeyPress(e)}
             placeholder='Scrivi un messaggio...'
             className='flex-1 p-2 border rounded-lg text-black'
           />
           <button
             type='submit'
-            // onClick={() => handleSend()}
+            disabled={isLoading}
             className='ml-2 p-2 bg-blue-500 text-white rounded-lg'
           >
-            <AiOutlineSend />
+            {isLoading ? <AiOutlineLoading3Quarters /> : <AiOutlineSend />}
           </button>
         </div>
       </form>

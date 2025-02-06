@@ -2,13 +2,16 @@
   "name": "RagPADigitale2026UI",
   "dockerFile": "Dockerfile",
   "mounts": [
+    "source=${localWorkspaceFolderBasename}-next,target=${containerWorkspaceFolder}/.next,type=volume",
     "source=${localWorkspaceFolderBasename}-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
   ],
   "postCreateCommand": "bun install",
   "customizations": {
     "vscode": {
       "extensions": [
-        "oven.bun-vscode"
+        "oven.bun-vscode",
+        "github.vscode-github-actions",
+        "github.vscode-pull-request-github"
       ]
     }
   },
