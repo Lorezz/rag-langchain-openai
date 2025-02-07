@@ -35,7 +35,7 @@ function getVectorStore() {
 async function generateEmbeddings() {
   const allSplits = await generateSplits();
 
-  console.log("Adding embeddings to Qdrant...");
+  console.log("Adding embeddings to Qdrant...", allSplits.length);
 
   await vectorStore!.addDocuments(allSplits);
 }

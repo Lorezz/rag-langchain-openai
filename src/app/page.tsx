@@ -69,17 +69,29 @@ export default function Home() {
   //#endregion
 
   return (
-    <div className='flex flex-col h-screen bg-gray-100'>
-      <div className='flex-1 overflow-y-auto p-4'>
+    <div className='flex flex-col h-screen bg-gray-100  max-w-6xl mx-auto'>
+      <div className='bg-blue-500 text-center text-2xl font-bold p-4'>
+        PA Digitale 2026 - FAQS Chatbot
+      </div>
+      <div className='flex-1 overflow-y-auto p-4 border border-gray-300'>
+        {messages.length === 0 && (
+          <div className='flex justify-start mb-2'>
+            <div className='p-3 rounded-lg bg-gray-300 text-black max-w-xs'>
+              Ciao! Come posso aiutarti?
+            </div>
+          </div>
+        )}
         {messages?.map((msg, index) => (
           <div
             key={index}
-            className={`flex ${msg.user ? "justify-end" : "justify-start"
-              } mb-2`}
+            className={`flex ${
+              msg.user ? "justify-end" : "justify-start"
+            } mb-2`}
           >
             <div
-              className={`p-3 rounded-lg ${msg.user ? "bg-blue-500 text-white" : "bg-gray-300 text-black"
-                } max-w-xs`}
+              className={`p-3 rounded-lg ${
+                msg.user ? "bg-blue-500 text-white" : "bg-gray-300 text-black"
+              } max-w-xs md:max-w-md  lg:max-w-lg`}
             >
               {msg.text}
             </div>
